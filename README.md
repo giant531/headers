@@ -1,2 +1,4 @@
-# headers
-contains the header files of various languages
+# Headers
+- contains various c-language programs
+- contains header file containing the most used programs or problems
+
