@@ -1,0 +1,57 @@
+	
+	Callback function:
+
+
+- called higher-order function
+- func that is passed to another func as parameter
+- not executed immediately
+- it is called-back at some specified point inside the containing funcion's body.
+
+	
+	npm
+
+
+- node package manager
+- to install a new module:
+	npm install mysql
+- to uninstall :
+	npm uninstall mysql
+- inbuilt module example:
+	require('http') : to create a server
+	require('mysql') : to connect with mysql server
+	require('fs') : file system: for read or write file handling operations
+
+	json(java script object notation)
+
+
+
+	sql(structure query language)
+- Queries : 
+	to create a new database
+		create database dbtest;
+	
+	to create new table
+		create table tbstudent(rno integer primary key 	auto_increment, fname varchar(40),lname varchar(40), marks integer);
+	
+	DML queries
+		
+		-insert
+		insert into tbstudent(rno,fname,lname,marks) values(101,'amit','kumar',90);
+		
+		-update all records
+		update tbstudent set marks=89;
+		
+		-update particular
+		update tbstudent set marks=87 where rno=101;
+		
+		-to fetch all records
+		select * from tbstudent;
+		
+		-to fetch particular record
+		select * from tbstudent where rno=101;
+		
+		-to delete all
+		delete from tbstudent
+		
+		-delete particular
+		delete from tbstudent where rno=101;
