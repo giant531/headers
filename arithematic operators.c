@@ -12,7 +12,10 @@
         printf("%d - %d = %d\n",num1,num2,res);
         res=num1*num2;
         printf("%d * %d = %d\n",num1,num2,res);
-        res=num1/num2;
+        if(num2 != 0)
+            res=num1/num2;
+        else
+            res = 0;
         printf("%d / %d = %d\n",num1,num2,res);
         res=num1%num2;
         printf("%d %% %d = %d\n",num1,num2,res);
