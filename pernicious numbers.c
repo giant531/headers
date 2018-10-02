@@ -17,6 +17,7 @@
     int prime(int num)
     {
         int i,jasus=0;
+        if(num == 0 || num == 1) return 0;
          for(i=2;i<=sqrt(num);i++)
         {
             if(num%i==0)
