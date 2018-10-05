@@ -3,7 +3,7 @@
     int countOnes(int n)
     {
         int count=0;
-        while(n)
+        while(n > 0)
         {
             if(n&1)
             {
@@ -17,6 +17,7 @@
     int prime(int num)
     {
         int i,jasus=0;
+        if(num == 1 || num == 0) return 0;
          for(i=2;i<=sqrt(num);i++)
         {
             if(num%i==0)
